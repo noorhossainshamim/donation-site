@@ -1,7 +1,6 @@
 body{
     margin: 0;
     padding: 0;
-    /* font-family: 'Roboto Slab', serif; */
     font-family: 'Merriweather Sans', sans-serif;
 }
 .header-section{
@@ -135,6 +134,44 @@ hr{
     font-weight: 600;
     margin: 20px 0;
     margin-bottom: 40px;
-    
+}
 
+.my-update{
+    background-color:beige;
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+input{
+    background-color: rgb(231, 228, 228);
+    margin-top: 50px;
+    height: 45px;
+    width: 130%;
+    border: none;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+footer{
+    font-family: 'Roboto Slab', serif; 
+    width: 100%;
+    height: 100px;
+    background-color: rgb(10, 1, 1);
+    color: rgb(185, 63, 63);
+    font-weight: 500;
+    text-align: center;
+    padding: 30px;
+
+}
+footer h3{
+    font-size: 25px;
+}
+footer p{
+    padding-left: 0;
+    color: white;
+    font-size: 18px;
 }
