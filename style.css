@@ -21,6 +21,9 @@ body{
     font-weight: 900;
     font-size: 52px;
 }
+.header-section p{
+    font-size: 18px;
+}
 
 .link-button{
     text-decoration: none;
@@ -134,6 +137,9 @@ hr{
     font-weight: 600;
     margin: 20px 0;
     margin-bottom: 40px;
+}
+.my-update-section{
+    height: 470px;
 }
 
 .my-update{
