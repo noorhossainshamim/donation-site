@@ -4,7 +4,6 @@ body{
     /* font-family: 'Roboto Slab', serif; */
     font-family: 'Merriweather Sans', sans-serif;
 }
-
 .header-section{
     color: white;
     font-weight: bold;
@@ -17,6 +16,7 @@ body{
     background-size: cover;
     background-color: rgb(56, 57, 58);
     height: 650px;
+
 }
 .header-section h1{
     font-weight: 900;
@@ -26,21 +26,23 @@ body{
 .link-button{
     text-decoration: none;
     color:white;
-    background-color: orangered;
+    background-color: rgb(248, 86, 27);
     border-radius: 5px;
     padding: 15px 20px;
     font-weight: bold;
     
 }
 .button-div{
-    margin-top: 40px;
+    margin-top: 50px;
 }
-.donate-today{
+.donate-today-section{
     background-color: white;
     text-align: center;
+    height: 500px;
 }
 .main-donate{
     text-align: center;
+    margin-top: 100px;
 }
 .main-donate h2{
     font-weight: bold;
@@ -48,7 +50,8 @@ body{
     margin-top: 80px;
 }
 .main-donate p{
-    color: gray
+    color: gray;
+    font-weight: 600;
 }
 .main-donate-box{
     display: flex;
@@ -76,4 +79,37 @@ body{
 }
 hr{
     width: 50%;
+    color: gray;
+}
+.donate-plan-section{
+    height: 500px;
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.plan{
+    text-align: left;
+    padding: 50px 5px;
+    width: 25%;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.plan img,h3,p{
+    padding-left: 15px;
+}
+.food{
+    background-color: rgba(187, 187, 243, 0.3);    
+}
+.shelter{
+    background-color: rgba(228, 158, 158, 0.3);    
+}
+.medicine{
+    background-color: rgba(179, 248, 215, 0.3);    
+
+}
+.medicine img{
+    height: 50px;
 }
