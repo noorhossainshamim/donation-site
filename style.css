@@ -7,14 +7,16 @@ body{
 
 .header-section{
     color: white;
+    font-weight: bold;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(images/donation9.jpg);
+    background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    background-color: rgb(56, 57, 58);
+    height: 650px;
 }
 .header-section h1{
     font-weight: 900;
@@ -26,9 +28,52 @@ body{
     color:white;
     background-color: orangered;
     border-radius: 5px;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    font-weight: bold;
     
 }
 .button-div{
     margin-top: 40px;
+}
+.donate-today{
+    background-color: white;
+    text-align: center;
+}
+.main-donate{
+    text-align: center;
+}
+.main-donate h2{
+    font-weight: bold;
+    font-size: 42px;
+    margin-top: 80px;
+}
+.main-donate p{
+    color: gray
+}
+.main-donate-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.donate-tk{
+    color: gray;
+    padding: 30px 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+#selected{
+    border: 2px solid salmon;
+    color: salmon;
+    background-color: rgb(172, 99, 91,0.1);
+}
+.other-tk{
+    color: rgb(136, 130, 130,0.5);
+    font-size: 20px;
+}
+hr{
+    width: 50%;
 }
